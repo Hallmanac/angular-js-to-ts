@@ -1,4 +1,5 @@
-# angularJsToTs
+# angular-js-to-ts
+Example code for converting an Angular 1.x app to use TypeScript
 
 **Generated from HotTowel Angular**
 
@@ -266,3 +267,4 @@ The `blocks.router` module contains a routing helper module that assists in addi
 ## License
 
 MIT
+=======
