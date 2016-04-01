@@ -1,0 +1,18 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "sourceMap": false,
+        "moduleResolution": "classic",
+        "declaration": false,
+        "target": "es5",
+        "outDir": "ts-output/app"
+    },
+    "exclude": [
+        "node_modules",
+        "typings/main.d.ts",
+        "typings/main"
+    ]
+}
