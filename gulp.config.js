@@ -1,6 +1,8 @@
 module.exports = function() {
+    var path = require('path');
     var client = './src/client/';
     var server = './src/server/';
+    var tsOutput = 'ts-output';
     var clientApp = client + 'app/';
     var report = './report/';
     var root = './';
@@ -22,7 +24,9 @@ module.exports = function() {
         // all javascript that we want to vet
         alljs: [
             './src/**/*.js',
-            './*.js'
+            './*.js',
+            tsOutput + '/*.js',
+            tsOutput + '/**/*.js'
         ],
         build: './build/',
         client: client,
@@ -36,7 +40,9 @@ module.exports = function() {
         js: [
             clientApp + '**/*.module.js',
             clientApp + '**/*.js',
-            '!' + clientApp + '**/*.spec.js'
+            '!' + clientApp + '**/*.spec.js',
+            tsOutput + '/*.js',
+            tsOutput + '/**/*.js'
         ],
         jsOrder: [
             '**/app.module.js',
@@ -136,6 +142,13 @@ module.exports = function() {
         };
         return options;
     };
+    
+    /**
+     * TypeScript build setting 
+     */
+    config.allTypeScript = path.join(client, '**/*.ts');
+    config.tsOutputPath = tsOutput;
+    
 
     /**
      * karma settings

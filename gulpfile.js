@@ -6,11 +6,24 @@ var glob = require('glob');
 var gulp = require('gulp');
 var path = require('path');
 var _ = require('lodash');
+var wrench = require('wrench');
+
 var $ = require('gulp-load-plugins')({lazy: true});
 
 var colors = $.util.colors;
 var envenv = $.util.env;
 var port = process.env.PORT || config.defaultPort;
+
+
+/**
+ *  This will load all js or coffee or TypeScript files in the gulp directory
+ *  in order to load all gulp tasks
+ */
+wrench.readdirSyncRecursive('./gulp').filter(function (file) {
+    return (/\.(js|coffee|ts)$/i).test(file);
+}).map(function (file) {
+    require('./gulp/' + file);
+});
 
 /**
  * yargs variables can be passed in to alter the behavior, when present.

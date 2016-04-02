@@ -8,7 +8,7 @@
         "moduleResolution": "classic",
         "declaration": false,
         "target": "es5",
-        "outDir": "ts-output/app"
+        "outDir": "ts-output/client/app"
     },
     "exclude": [
         "node_modules",

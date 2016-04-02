@@ -1,0 +1,33 @@
+{
+    "name": "BitLever",
+    "exclude": [
+        "typings/main",
+        "node_modules",
+        "app"
+    ],
+    "ambientDependencies": {
+        "angular": "registry:dt/angular#1.5.0+20160328125810",
+        "angular-animate": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-animate.d.ts#3c26c6546fab58b39d04d6ae40bacfa9a25dd196",
+        "angular-cookies": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-cookies.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
+        "angular-material": "github:DefinitelyTyped/DefinitelyTyped/angular-material/angular-material.d.ts#2d0a1b1502610025bd55ce8eaa48069da8a16c82",
+        "angular-resource": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-resource.d.ts#621f12c6602bcc569bc6ad3a67a0af3ba3832618",
+        "angular-sanitize": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-sanitize.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
+        "angular-translate": "github:DefinitelyTyped/DefinitelyTyped/angular-translate/angular-translate.d.ts#19850bf86c876e0c2544842114878ece4664941a",
+        "angular-ui-router": "github:DefinitelyTyped/DefinitelyTyped/angular-ui-router/angular-ui-router.d.ts#655f8c1bf3c71b0e1ba415b36309604f79326ac8",
+        "angular-ui-sortable": "github:DefinitelyTyped/DefinitelyTyped/angular-ui-sortable/angular-ui-sortable.d.ts#197dfc26d4c2ed50884ef895a5478b06a43be797",
+        "angular-ui-tree": "github:DefinitelyTyped/DefinitelyTyped/angular-ui-tree/angular-ui-tree.d.ts#824b0493e717a203c4107f0f1621a251cd3ff1c4",
+        "highcharts": "github:DefinitelyTyped/DefinitelyTyped/highcharts/highcharts.d.ts#c64873177e3b86a10f09a76b4d5545a0d8920ffb",
+        "highcharts-ng": "github:DefinitelyTyped/DefinitelyTyped/highcharts-ng/highcharts-ng.d.ts#d7ad55ce3038ac6a1a0f84ae86cc22a09ca1d58a",
+        "highlightjs": "github:DefinitelyTyped/DefinitelyTyped/highlightjs/highlightjs.d.ts#2da55a09042047ef9ecd8cafd5c1ed97d216ba29",
+        "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#470954c4f427e0805a2d633636a7c6aa7170def8",
+        "lodash": "github:DefinitelyTyped/DefinitelyTyped/lodash/lodash.d.ts#f696b8c0c2d6e2a31c794a3752f68de85dce4c2b",
+        "mobile-detect": "github:DefinitelyTyped/DefinitelyTyped/mobile-detect/mobile-detect.d.ts#e46265f966eed252edd53a21875a6be6c4f7ba89",
+        "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#b090bcf9ba9f756ec8ff53e7707269729172a325",
+        "moment-node": "github:DefinitelyTyped/DefinitelyTyped/moment/moment-node.d.ts#5b0c38ab2bd59980a095c025b11ebb6cc6cbf947",
+        "moment-range": "github:DefinitelyTyped/DefinitelyTyped/moment-range/moment-range.d.ts#6a51cc52efa2b26c44ec1208e700f7366f6587d6",
+        "moment-timezone": "github:DefinitelyTyped/DefinitelyTyped/moment-timezone/moment-timezone.d.ts#9e95ea8ede147d9822f10cffd3d32799ec121216",
+        "ng-file-upload": "github:DefinitelyTyped/DefinitelyTyped/ng-file-upload/ng-file-upload.d.ts#7c3971b0247e6c18ee7f2ab3eb15247f4858bd79",
+        "node-uuid": "github:DefinitelyTyped/DefinitelyTyped/node-uuid/node-uuid.d.ts#d6c38daa6d89dd44b87f537600c55a78dfa14888",
+        "toastr": "github:DefinitelyTyped/DefinitelyTyped/toastr/toastr.d.ts#a36e6ad2f472741b1c22c2af955bf13b7c62e146"
+    }
+}
