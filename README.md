@@ -1,7 +1,7 @@
 # angular-js-to-ts
 Example code for converting an Angular 1.x app to use TypeScript
 
-Sway presentation [https://sway.com/Auz5WfmbRSuYs0m0]
+[Sway presentation](https://sway.com/Auz5WfmbRSuYs0m0)
 
 **Generated from HotTowel Angular**
 
