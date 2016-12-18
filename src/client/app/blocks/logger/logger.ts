@@ -1,4 +1,6 @@
 namespace Blocks.Logger {
+    'use strict';
+    
     //-- INTERFACE --\\
     export interface ILogger {
         showToasts: boolean;
@@ -22,12 +24,11 @@ namespace Blocks.Logger {
          * Log straight to the console bypassing toastr
          */
         log: (...args: any[]) => void;
-    }    
-}
-(function() {
-        'use strict';
-
-        angular
+    }
+    
+    //-- SERVICE --\\
+    
+    angular
             .module('blocks.logger')
             .factory('logger', logger);
 
@@ -70,4 +71,5 @@ namespace Blocks.Logger {
                 $log.warn('Warning: ' + message, data);
             }
         }
-    } ());
+    
+}
